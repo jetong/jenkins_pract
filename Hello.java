@@ -9,6 +9,7 @@ public class Hello {
       System.out.println("a/b = " + result);
     }catch(ArithmeticException e){
       System.out.println("Exception caught: " + e.getMessage());
+      System.exit(1);
     }
   }
 }
